@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#MISE description="Start an irb console"
+#MISE alias="con"
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "hanami-settings-stores"
+
+require "irb"
+IRB.start(__FILE__)

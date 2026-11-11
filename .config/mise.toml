@@ -1,0 +1,17 @@
+[task_config]
+includes = ["bin"]
+
+[tasks.format]
+description = "Run all formatters"
+depends = ["format:**"]
+
+[tasks.lint]
+description = "Run all linters"
+depends = ["lint:**"]
+
+[tools]
+bitwarden = "latest"
+editorconfig-checker = "latest"
+markdownlint-cli2 = "latest"
+op = "latest"
+ruby = "3.2"

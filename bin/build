@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+#MISE description="Build the gem"
+#MISE alias=["b"]
+
+set -e
+
+mkdir -p pkg
+gem build hanami-settings-stores.gemspec -o \
+  "pkg/hanami-settings-stores-$(ruby -e "puts Gem::Specification.load('hanami-settings-stores.gemspec').version").gem"

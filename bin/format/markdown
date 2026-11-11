@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+#MISE description="Format markdown files"
+
+set -e
+
+bin/lint/markdown --fix

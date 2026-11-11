@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+#MISE description="Run RuboCop with auto-correct"
+
+set -e
+
+bundle exec rubocop --config .config/.rubocop.yml -A

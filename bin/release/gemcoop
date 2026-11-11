@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+#MISE description="Push gem to gem.coop under @aaron"
+#MISE depends=["build"]
+#USAGE arg "<push_key>" help="API key for gem.coop"
+
+set -e
+
+GEM_HOST_API_KEY="${usage_push_key}" gem push pkg/hanami-settings-stores-*.gem --host https://beta.gem.coop/@aaron

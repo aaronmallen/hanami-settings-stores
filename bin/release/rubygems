@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+#MISE description="Push gem to rubygems.org"
+#MISE depends=["build"]
+
+set -e
+
+gem push pkg/hanami-settings-stores-*.gem

@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+#MISE description="Setup the project"
+
+set -e
+
+command -v mise && mise install
+bundle install

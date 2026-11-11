@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+#MISE description="Run RuboCop linter"
+
+set -e
+
+bundle exec rubocop --config .config/.rubocop.yml

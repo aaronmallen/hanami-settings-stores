@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+#MISE description="Run RSpec test suite"
+#MISE alias="test"
+
+set -e
+
+bundle exec rspec
