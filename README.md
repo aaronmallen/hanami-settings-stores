@@ -1,5 +1,7 @@
 # Hanami::Settings::Stores
 
+[![Discord][discord-badge]][discord-link]
+
 Pluggable settings stores for [Hanami](https://hanamirb.org).
 
 Fetch settings from password managers like 1Password and Bitwarden, or from a local JSON, TOML, or
@@ -202,3 +204,7 @@ mise run ruby
 ## License
 
 [MIT](LICENSE)
+
+[discord-badge]:
+https://img.shields.io/discord/1441938388780585062?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=%235865F2
+[discord-link]: https://discord.gg/PqQdhf9VMF
