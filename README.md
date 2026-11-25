@@ -1,5 +1,8 @@
 # Hanami::Settings::Stores
 
+[![Build][build-badge]][build-workflow]
+[![Version][gem-badge]][rubygems.org]
+[![GitHub Sponsors][sponsor-badge]][sponsor-link]
 [![Discord][discord-badge]][discord-link]
 
 Pluggable settings stores for [Hanami](https://hanamirb.org).
@@ -205,6 +208,12 @@ mise run ruby
 
 [MIT](LICENSE)
 
+[build-badge]: https://aaronmallen.dev/aaron/hanami-settings-stores/actions/workflows/build.yml/badge.svg?branch=main&style=for-the-badge
+[build-workflow]: https://aaronmallen.dev/aaron/hanami-settings-stores/actions?workflow=build.yml
 [discord-badge]:
 https://img.shields.io/discord/1441938388780585062?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=%235865F2
 [discord-link]: https://discord.gg/PqQdhf9VMF
+[gem-badge]: https://img.shields.io/gem/v/hanami-settings-stores?style=for-the-badge&logo=rubygems
+[rubygems.org]: https://rubygems.org/gems/hanami-settings-stores
+[sponsor-badge]: https://img.shields.io/github/sponsors/aaronmallen?style=for-the-badge
+[sponsor-link]: https://github.com/sponsors/aaronmallen
